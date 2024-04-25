@@ -3,7 +3,7 @@
         $('preloader').addClass('complete');  
       })
     $(window).on('scroll',function(){
-        var scroll= $(window).scrollTop();
+        var scroll = $(window).scrollTop();
         if(scroll>=50){
             $(".sticky").addClass("stickyadd")
         }else{
